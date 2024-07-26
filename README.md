@@ -17,4 +17,3 @@ Author - Abhishek Pandey
 
 
 <img width="1024" alt="279284439-02b0ef3b-1165-46cf-8c9d-89e41b17032f" src="https://github.com/user-attachments/assets/76139af6-d933-41e2-9983-6e68e15306e9">
-<img width="1024" alt="279284439-02b0ef3b-1165-46cf-8c9d-89e41b17032f (1)" src="https://github.com/user-attachments/assets/276a0f57-3591-4db7-b880-55926eb380ce">
