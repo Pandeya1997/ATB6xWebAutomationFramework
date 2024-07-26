@@ -14,3 +14,4 @@ Author - Abhishek Pandey
 11. Remote Selenium Grid - Cloud Grid, Selenoid
 
 
+![Uploading 279284439-02b0ef3b-1165-46cf-8c9d-89e41b17032f.png…]()
