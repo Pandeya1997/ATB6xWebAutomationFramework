@@ -12,4 +12,8 @@ CI / CD -> GIT, Jenkins
 Coding Best Practice- SonarLint
 Logs - Log4j
 Remote Selenium Grid - Cloud Grid, Selenoid
-![279284439-02b0ef3b-1165-46cf-8c9d-89e41b17032f.png](..%2F..%2FDownloads%2F279284439-02b0ef3b-1165-46cf-8c9d-89e41b17032f.png)
+
+**Seleniod - Docker Grid Running**
+
+Selenoid is a powerful tool for running Selenium tests in Docker containers.
+which can help you manage and scale your test automation infrastructure more efficiently.
