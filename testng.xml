@@ -7,6 +7,7 @@
                 <methods>
                     <include name="testLoginNegativeVWO"/>
                     <include name="testLoginNegativeVWO02"/>
+                    <include name=" testLoginPostieVWO03"/>
                 </methods>
             </class>
         </classes>
