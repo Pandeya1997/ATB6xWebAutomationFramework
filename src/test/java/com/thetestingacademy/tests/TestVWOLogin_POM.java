@@ -1,6 +1,6 @@
-package com.thetestingacademy;
+package com.thetestingacademy.tests;
 
-import com.thetestingacademy.pages.LoginPage_POM;
+import com.thetestingacademy.pages.pageObjectModel.LoginPage_POM;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

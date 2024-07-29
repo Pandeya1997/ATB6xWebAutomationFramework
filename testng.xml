@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework">
         <classes>
-            <class name="com.thetestingacademy.TestVWOLogin_POM">
+            <class name="com.thetestingacademy.tests.TestVWOLogin_POM">
                 <methods>
                     <include name="testLoginNegativeVWO"/>
                     <include name="testLoginNegativeVWO02"/>

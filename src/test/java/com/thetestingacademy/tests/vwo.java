@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package com.thetestingacademy.tests;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;

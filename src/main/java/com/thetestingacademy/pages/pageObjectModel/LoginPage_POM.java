@@ -1,4 +1,4 @@
-package com.thetestingacademy.pages;
+package com.thetestingacademy.pages.pageObjectModel;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
