@@ -31,4 +31,30 @@ which can help you manage and scale your test automation infrastructure more eff
 
 Selenoid is a powerful tool for running Selenium tests in Docker containers.
 which can help you manage and scale your test automation infrastructure more efficiently.
+ 
+## How to Add Loog4j in the Project ?
+````
+<dependency>     
+ <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>3.0.0-beta2</version>
+    </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>3.0.0-beta2</version>
+    </dependency> 
+````
+
+- Add log4j2.xml in main Folder --> resource 
+- https://gist.github.com/PramodDutta/36ec0a2460e0ec796b7fe6b186a008b5
+- To your code 
+- ``
+  private static final Logger logger = LogManager.getLogger(TestVWOLogin_PF_DM.class);
+
+file
+logger.info("Starting Test");
+
+``
