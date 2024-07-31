@@ -1,12 +1,12 @@
 package com.thetestingacademy.base;
 
-import com.thetestingacademy.driver.DriverManager;
+import com.thetestingacademy.utils.PropertyReader;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.FileNotFoundException;
 import java.time.Duration;
 
 import static com.thetestingacademy.driver.DriverManager.getDriver;
@@ -19,9 +19,23 @@ public class CommonToAllPage {
     public CommonToAllPage() {
     }
 
-    public void openVWOLoginURL() {
-        // driver.get
-        getDriver().get("https://app.vwo.com");
+    public void openVWOLoginURL(String url) {
+        try {
+            switch (url){
+                case "qa":
+                    getDriver().get(PropertyReader.readkey("qa_url"));
+                    break;
+                case "preprod":
+                    getDriver().get(PropertyReader.readkey("uat_url"));
+                    break;
+                default:
+                    getDriver().get(PropertyReader.readkey("url"));
+                    break;
+            }
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void clickElement(By by) {

@@ -1,10 +1,13 @@
 package com.thetestingacademy.pages.pageFactory;
 
 import com.thetestingacademy.base.CommonToAllPage;
+import com.thetestingacademy.utils.PropertyReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import java.io.FileNotFoundException;
 
 public class  LoginPage_PF extends CommonToAllPage {
     WebDriver driver;
@@ -23,11 +26,11 @@ public class  LoginPage_PF extends CommonToAllPage {
     private WebElement error_msg;
 
     // Page Actions
-   public String loginTOVWOInvalidCreds(){
+   public String loginTOVWOInvalidCreds() throws FileNotFoundException {
 
-      username.sendKeys("admin@admin.com");
-      password.sendKeys("admin");
-      signButton.click();
+       enterInput(username, PropertyReader.readkey("invalid_username"));
+       enterInput(password, PropertyReader.readkey("invalid_password"));
+       clickElement(signButton);
 
       try {
            Thread.sleep(3000);

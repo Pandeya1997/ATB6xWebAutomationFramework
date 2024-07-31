@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="631013e4-a42a-4f4d-81c7-4b538658fbe4" name="Changes" comment="page model framework automation selenium">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManagerTL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageFactory/LoginPage_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/DashboardPage_POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/CommonToAllTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/StaleElemenntException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/TestVWOLogin_PF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/TestVWOLogin_PF_DM.java" afterDir="false" />
+    <list default="true" id="631013e4-a42a-4f4d-81c7-4b538658fbe4" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/utils/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/qa/TestVWOLogin_PF_DM_QA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-qa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-uat.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/DashboardPage_POM.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageObjectModel/LoginPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/TestVWOLogin_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/TestVWOLogin_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/vwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/vwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/base/CommonToAllPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageFactory/LoginPage_PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pages/pageFactory/LoginPage_PF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/TestVWOLogin_PF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/TestVWOLogin_PF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/TestVWOLogin_PF_DM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/TestVWOLogin_PF_DM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +56,36 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-qa.xml.executor": "Run",
     "TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng.xml.executor": "Run",
     "TestNG.TestVWOLogin_PF.executor": "Run",
     "TestNG.TestVWOLogin_PF_DM.executor": "Run",
     "TestNG.TestVWOLogin_POM.executor": "Run",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AARRSOL\IdeaProjects\ATB6xWebAutomationFramework" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.thetestingacademy.tests" />
       <recent name="com.thetestingacademy" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestVWOLogin_PF_DM">
+  <component name="RunManager" selected="TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-qa.xml">
+    <configuration name="C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-qa.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB6xWebAutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-qa.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB6xWebAutomationFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -87,7 +100,7 @@
       <module name="ATB6xWebAutomationFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.tests.*" />
+          <option name="PATTERN" value="com.thetestingacademy.tests.qa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,7 +117,7 @@
       <module name="ATB6xWebAutomationFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.tests.*" />
+          <option name="PATTERN" value="com.thetestingacademy.tests.qa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,7 +134,7 @@
       <module name="ATB6xWebAutomationFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.tests.*" />
+          <option name="PATTERN" value="com.thetestingacademy.tests.qa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,9 +149,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-qa.xml" />
+        <item itemvalue="TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng.xml" />
         <item itemvalue="TestNG.TestVWOLogin_PF_DM" />
         <item itemvalue="TestNG.TestVWOLogin_PF" />
-        <item itemvalue="TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng.xml" />
         <item itemvalue="TestNG.TestVWOLogin_POM" />
       </list>
     </recent_temporary>
@@ -208,7 +222,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722224814981</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1722396000728</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722396000728</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1722396033859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722396033859</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +257,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;page model Farame work" />
     <MESSAGE value="page model framework automation selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="page model framework automation selenium" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
 </project>
