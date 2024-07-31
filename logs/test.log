@@ -1,0 +1,18 @@
+2024-07-31 18:27:14 INFO  TestVWOLogin_PF_DM - Starting Test
+2024-07-31 18:27:14 INFO  TestVWOLogin_PF_DM - Opening the URL
+2024-07-31 18:27:32 INFO  TestVWOLogin_PF_DM - Verifying the Result
+2024-07-31 18:46:54 INFO  TestVWOLogin_PF_DM_QA - Starting Test in QA Environment
+2024-07-31 18:46:54 INFO  TestVWOLogin_PF_DM_QA - Opening the URL
+2024-07-31 18:47:17 INFO  TestVWOLogin_PF_DM_QA - Verifying the Result
+2024-07-31 18:54:56 INFO  TestVWOLogin_PF_DM_QA - Starting Test in QA Environment
+2024-07-31 18:54:56 INFO  TestVWOLogin_PF_DM_QA - Opening the URL
+2024-07-31 18:55:17 INFO  TestVWOLogin_PF_DM_QA - Verifying the Result
+2024-07-31 22:50:31 INFO  TestVWOLogin_PF_DM_QA - Starting Test in QA Environment
+2024-07-31 22:50:31 INFO  TestVWOLogin_PF_DM_QA - Opening the URL
+2024-07-31 22:50:43 INFO  TestVWOLogin_PF_DM_QA - Verifying the Result
+2024-07-31 22:52:59 INFO  TestVWOLogin_PF_DM_QA - Starting Test in QA Environment
+2024-07-31 22:52:59 INFO  TestVWOLogin_PF_DM_QA - Opening the URL
+2024-07-31 22:53:16 INFO  TestVWOLogin_PF_DM_QA - Verifying the Result
+2024-07-31 23:00:21 INFO  TestVWOLogin_PF_DM_QA - Starting Test in QA Environment
+2024-07-31 23:00:21 INFO  TestVWOLogin_PF_DM_QA - Opening the URL
+2024-07-31 23:00:32 INFO  TestVWOLogin_PF_DM_QA - Verifying the Result

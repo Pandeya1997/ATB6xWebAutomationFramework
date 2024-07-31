@@ -6,9 +6,11 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.FileNotFoundException;
+
 public class TestVWOLogin_PF {
     @Test
-    public void testLoginNegativeVWO()  {
+    public void testLoginNegativeVWO() throws FileNotFoundException {
         WebDriver driver = new EdgeDriver();
         driver.get("https://app.vwo.com/#/login");
 
