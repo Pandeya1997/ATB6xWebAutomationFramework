@@ -51,10 +51,8 @@ which can help you manage and scale your test automation infrastructure more eff
 - Add log4j2.xml in main Folder --> resource 
 - https://gist.github.com/PramodDutta/36ec0a2460e0ec796b7fe6b186a008b5
 - To your code 
-- ``
-  private static final Logger logger = LogManager.getLogger(TestVWOLogin_PF_DM.class);
 
+`` private static final Logger logger = LogManager.getLogger(TestVWOLogin_PF_DM.class);
 file
 logger.info("Starting Test");
-
 ``
