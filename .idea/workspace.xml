@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="631013e4-a42a-4f4d-81c7-4b538658fbe4" name="Changes" comment="complete frame work with page facktry">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="631013e4-a42a-4f4d-81c7-4b538658fbe4" name="Changes" comment="no changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +64,20 @@
       <recent name="com.thetestingacademy" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-qa.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-uat.xml">
     <configuration name="C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-qa.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB6xWebAutomationFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-qa.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-uat.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB6xWebAutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-uat.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -120,30 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVWOLogin_POM" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATB6xWebAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.tests.qa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thetestingacademy" />
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.TestVWOLogin_POM" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-uat.xml" />
         <item itemvalue="TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng-qa.xml" />
         <item itemvalue="TestNG.C:/Users/AARRSOL/IdeaProjects/ATB6xWebAutomationFramework/testng.xml" />
         <item itemvalue="TestNG.TestVWOLogin_PF_DM" />
         <item itemvalue="TestNG.TestVWOLogin_PF" />
-        <item itemvalue="TestNG.TestVWOLogin_POM" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +250,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="project completes" />
     <MESSAGE value="complete frame work with page facktry" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete frame work with page facktry" />
+    <MESSAGE value="no changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="no changes" />
   </component>
 </project>
